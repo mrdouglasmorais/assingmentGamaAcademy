@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.navbar{
+  background: #666666;
+  height: 13%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  align-items: center;
+}
+
+.nav-style{
+  margin: auto;
+}
+
+.container{
+  display: flex;
+  height: 30%;
+}
+.artigo1{
+  flex-grow: 4; 
+  background: #A1ACB3;
+}
+.artigo2{
+  flex-grow: 2; 
+  background: #B3A1A1;
+}
