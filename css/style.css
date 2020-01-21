@@ -41,3 +41,31 @@ h1, h2, h3, h4, h5, a, p {
   flex-grow: 2; 
   background: #B3A1A1;
 }
+.container-footer {
+	display: flex;
+}
+.footer-logo {
+	flex: 2 1 50px;
+	align-items: center;
+}
+.social-media {
+	flex: 2 2 100px;
+}
+ul > li { 
+	display: inline;
+}
+.footer-3 {
+	border: 2px solid black;
+	flex: 2 1 100px;
+}
+#site-footer {
+	background-color: #F5F4F4;
+}
+#copy {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	color: #fff;
+	background-color: #666;
+	font-size: 12px;
+}
