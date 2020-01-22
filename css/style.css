@@ -411,3 +411,10 @@ opacity: 1;
   background: #156194;
   box-shadow: 0px 5px 3px #00000040;
 }
+
+.final-msg{
+  font-size: 30px;
+  padding-left: 10px;
+  color: #297fb8;
+  padding-bottom: 15px;
+}
