@@ -287,8 +287,10 @@ opacity: 1;
 
 .read-more{
   font-size: 46px;
-  margin-top:10px;
-  margin-left:50px;
+  font-family: "MyriadPro-Bold";
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   
 }
 .ebook-form{
@@ -360,4 +362,23 @@ opacity: 1;
 .post-side{
   display: block;
   margin-left: 15px;
+}
+.post-title{
+  font-size: 42px;
+  font-family: "MyriadPro-Bold";
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.post-info{
+  font-size: 21px;
+  font-family: "MyriadPro-Regular";
+  margin-bottom: 15px;
+}
+
+.post-preview{
+  font-size: 25px;
+  font-family: "MyriadPro-Regular";
+  margin-bottom: 5px;
 }
