@@ -292,6 +292,7 @@ opacity: 1;
   font-size: 46px;
   margin-top:10px;
   margin-left:10px;
+  margin-bottom: 20px;
   
 }
 .ebook-form{
@@ -318,12 +319,13 @@ opacity: 1;
  
 }
 
-.form-field{
-  font-size: 30px;
+#form-field{
+  font-size: 17px;
   display: block;
   align-content: flex-start;
   width: 100%;
   padding-left: 30px;
+  
 }
 .field{
   display: flex;
@@ -339,7 +341,7 @@ opacity: 1;
   margin-bottom: 3px;
 }
 
-.form-input{
+#form-input{
   width: 80%;
   height: 27px;
   background: #F4F4F4 0% 0% no-repeat padding-box;
@@ -363,3 +365,91 @@ opacity: 1;
   display: block;
   margin-left: 15px;
 }
+
+.read-more-text{
+  font-size: 17px;
+  margin-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.read-more-title{
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+.register-form--action{
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+input[type=text], input[type=email] {
+  width: 320px;
+  padding-left: 10px;
+  height: 40px;
+  border: 1px solid #1b608d;
+  border-radius: 25px;
+  font-style: italic;
+  font-size: 12px;
+  opacity: 1;
+  }
+
+  input[type=email] {
+    width: 324px;
+  }
+
+  input[type=submit]{
+    top: 100px;
+    padding: 1px, 1px;
+    height: 40px;
+    background: #F24E4E;
+    box-shadow: 0px 3px 2px #00000040;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+    width: 100px;
+  }
+
+  .call-action--central-container {
+    width: 100%;
+    height: 200px;
+    background: #1b608d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  
+  .call-action--text{
+    display: flex;
+    flex-grow: 1;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 70px;
+  }
+  .call-action--input-nome {
+    flex-grow: 2;
+    padding-top: 10px;
+  }
+  .call-action--input-email {
+    flex-grow: 2;
+    padding-top: 10px;
+  }
+  .call-action-button {
+    flex-grow: 2;
+  }
+
+  .form-field-ebook{
+    margin-left: -60px;
+  }
