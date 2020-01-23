@@ -215,8 +215,10 @@ opacity: 1;
 
 .title{
   font-size: 60px;
-  padding-left: 60px;
+  padding-left: 10px;
   color: #297fb8;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif
 }
 
 .text-area{
@@ -229,11 +231,13 @@ opacity: 1;
 
 .text-side{
   margin-top: 30px; 
-  height: 510px;
   flex-grow: 1;
   background-color: #fff;
   border-radius: 25px;
   margin-bottom: 60px;
+  display: flex;
+    flex-direction: column;
+    align-content: flex-start;
 }
 .content-slider{
   display: flex;
@@ -263,21 +267,21 @@ opacity: 1;
 .other-post{
   border-radius: 10px;
   margin-right: 15px;
-  background: #F4F4F4 0% 0% no-repeat padding-box;
+  background:  #297fb8 0% 0% no-repeat padding-box;
   width: 400px;
-  height: 764px;
+  margin-top: 30px;
   margin-bottom: 20px;
-  padding: 30px;
+  padding: 15px;
 }
 
 .other-post-form{
   border-radius: 10px;
   margin-right: 15px;
-  background: #F4F4F4 0% 0% no-repeat padding-box;
+  background: #297fb8 0% 0% no-repeat padding-box;
   width: 400px;
-  height: 221px;
+  height: 250px;
   margin-bottom: 20px;
-  padding: 30px;
+  padding: 15px;
 }
 
 .post-img{
@@ -288,7 +292,7 @@ opacity: 1;
 .read-more{
   font-size: 46px;
   margin-top:10px;
-  margin-left:50px;
+  margin-left:10px;
   
 }
 .ebook-form{
