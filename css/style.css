@@ -47,22 +47,23 @@ button:hover {
 }
 .main--navbar{
   margin-top: 30px;
-  border-top: solid 2px #1b608d;
-  border-bottom: solid 2px #1b608d;
   display: flex;
   justify-content: space-around;
   line-height: 50px;
-  font-size: 25px;
-  margin: 60px;
-  background: #F5F5F5;
+  font-size: 20px;
+  background: #1b608d;
+  width: 100%;
 }
 .main--navbar a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 .logo{
+  display: flex;
   align-items: center;
-  margin-top: 25px;
+  width: 30%;
+  margin-top: 30px;
+  justify-content: center;
 }
 
 .nav-style{
@@ -188,6 +189,10 @@ button:hover {
 	font-size: 12px;
 }
 
+.main--navbar input {
+  margin-top: 3%;
+}
+
 .search-input{
 width: 224px;
 height: 40px;
@@ -196,7 +201,6 @@ border-radius: 25px;
 font-style: italic;
 font-size: 12px;
 opacity: 1;
-
 }
 
 .search-input::placeholder{
@@ -229,6 +233,7 @@ opacity: 1;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 5px;
 }
 
 .title{
