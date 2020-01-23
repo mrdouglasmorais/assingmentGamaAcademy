@@ -3,8 +3,40 @@
   margin: 0;
 }
 
+
 h1, h2, h3, h4, h5, a, p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color: #F5F5F5;
+
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Roboto', sans-serif;
+}
+a, p, span, b {
+  font-family: 'Lato', sans-serif;
+}
+
+button {
+  color: #fff;
+  background: #F24E4E;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 8px;
+  height: 37px;
+  width: 150px;
+  border: none;
+  box-shadow: 0px 3px 2px #00000040;
+  margin-top: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(182, 54, 54);
+  box-shadow: 0px 5px 3px #00000040;
+
 }
 
 .navbar{
@@ -31,6 +63,7 @@ h1, h2, h3, h4, h5, a, p {
 }
 .logo{
   align-items: center;
+  margin-top: 25px;
 }
 
 .nav-style{
