@@ -99,15 +99,29 @@
             <div class="other-post-form">
                 <div class="read-more">Inscreve-se no:</div>
                 <div class="form-field-smaller">
-                    <div class="field">
-                        <span>Nome</span>
-                        <input class="form-input-smaller" placeholder="Nome Completo">
-                    </div>
-                    <div class="field">
-                        <span>Email</span>
-                        <input class="form-input-smaller" placeholder="email@email.com">
-                    </div>
-                    <button class="other-post-button">Cadastrar</button>
+                    <form class="register-form--action" method="POST" action="https://hooks.zapier.com/hooks/catch/1735454/oh5cwc6/">
+                        <p>Nome:</p><input name="name"
+                        class="call-action--input-nome"
+                        type="text"
+                        label="Nome"
+                        placeholder="Digite seu nome"
+                        pattern="^\D{2,}\s[\D\s]{2,}$"
+                        title="Digite seu nome completo"
+                        required>
+                  
+                        <p>E-mail:</p><input
+                        name="email"
+                        class="call-action--input-email"
+                        type="email"
+                        label="Email"
+                        placeholder="Digite seu melhor e-mail"
+                        title="Digite seu melhor email"
+                        required
+                          />
+                       <input name="search" type="hidden" value="http://coisadcasa.com.br/" />
+                       <input class="call-action--button" type="submit" label="Cadastrar"/>
+                  
+                    </form>
                 </div>
             </div>
         </div>
