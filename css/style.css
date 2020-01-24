@@ -312,6 +312,8 @@ input[type=text], input[type=email] {
 .content-post{
   display: flex;
   min-height: calc(100vh - 355px);
+  align-items: center;
+  flex-direction: column;
 }
 .text-area{
   display: flex;
@@ -323,24 +325,84 @@ input[type=text], input[type=email] {
   flex-grow: 2;
   margin-top: 30px;
   margin-bottom: 20px;
-  width: 34%;
+  width: 70%;
   background-color: #fff;
   border-radius: 25px;
   margin-right: 10px;
   flex-direction: column;
+  align-items: center;
 }
 .text-area-left-post {
   display: flex;
   flex-direction: row;
-  border: 2px solid black;
+  padding: 15px;
+  height: 30%;
 }
+
+.highlight-img{
+  border-radius: 15px;
+  height: 90%;
+}
+
+.text-area-left-post-text{
+padding: 15px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
 .text-area-right {
   flex-grow: 1;
   margin-top: 30px;
   margin-bottom: 20px;
-  width: 25%;
-  background-color: #fff;
+  width: 45%;
   border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-area-right-box{
+  flex-grow: 1;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 60%;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.text-area-right-box-last{
+  flex-grow: 1;
+    width: 100%;
+    height: 40%;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other-news{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.text-area-form{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.text-area-form-title{
+  margin-bottom: 15px;
+}
+.highlights-subtitle{
+ margin-top: 15px;
+}
+.text-highlights{
+  padding: 20px;
 }
 
 .text-side {

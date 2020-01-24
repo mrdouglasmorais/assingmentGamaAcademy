@@ -24,17 +24,20 @@
 </head>
 
 <body>
-  <div class="navbar">
-    <nav class="nav-style"><img class="logo" alt="Coisas de Casa" height="90%" width="auto" src="src/img/content/-coisadcasa.png">
-    </nav>
-    <div class="search-area" > 
-      <input class="search-input" placeholder=" O que está procurando? ">
-      <button class="subscribe">Assine</button>
-    </div>
-  </div>
   <div class="main--navbar">
-    <div><a href="#" >Sobre</a></div>
+    <div><a href="http://coisadcasa.com.br/"><img width="160px" height="auto" src="src/img/content/LOGO_FINAL_PNG-FLAT.png"/></a></div>
+    <div><a href="#" >Publicações</a></div>
+    <div><a href="#" >Contato</a></div>
+    <div><a href="#" >Sobre Nós</a></div>
+    <div><input type="text" name="search" placeholder=" O que está procurando? "></div>
+    <div><button href="#" id="myBtn" class="subscribe">Assine</button></div>
   </div>
+
+  <nav class="nav-style">
+    <center>
+      <img class="logo" alt="Coisas de Casa" width="90%" height="auto" src="src/img/content/LOGO_FINAL_PNG-01.png">
+    </center>
+  </nav>
 
   <div class="content">
     <div class="text-side">
@@ -46,7 +49,7 @@
         </h2>
       </div>
       <div>
-       <img class="post-img" src="./Captura de Tela 2020-01-21 às 23.34.40.png">
+       <img class="post-img" src="./src/img/content/Captura de Tela 2020-01-21 às 23.34.40.png">
       </div>
       <div class="text-area">
         <p>
@@ -81,13 +84,13 @@
         </p>
       </div>
       <div>
-        <img class="post-img" src="./Captura de Tela 2020-01-22 às 09.22.12.png">
+        <img class="post-img" src="./src/img/content//Captura de Tela 2020-01-22 às 09.22.12.png">
        </div>
        <div>
-        <img class="post-img" src="./Captura de Tela 2020-01-22 às 09.22.32.png">
+        <img class="post-img" src="./src/img/content//Captura de Tela 2020-01-22 às 09.22.32.png">
        </div>
        <div>
-        <img class="post-img" src="./Captura de Tela 2020-01-22 às 09.22.45.png">
+        <img class="post-img" src="./src/img/content/Captura de Tela 2020-01-22 às 09.22.45.png">
        </div>
        <div class="text-area">
         <p>
@@ -105,10 +108,10 @@
         </p>
       </div>
       <div>
-        <img class="post-img" src="./Captura de Tela 2020-01-22 às 09.22.59.png">
+        <img class="post-img" src="./src/img/content/Captura de Tela 2020-01-22 às 09.22.59.png">
        </div>
        <div>
-        <img class="post-img" src="./Captura de Tela 2020-01-22 às 09.23.16.png">
+        <img class="post-img" src="./src/img/content/Captura de Tela 2020-01-22 às 09.23.16.png">
        </div>
        <div class="text-area">
         <p>
@@ -116,7 +119,7 @@
         </p>
       </div>
       <div>
-        <img class="post-img" src="./Captura de Tela 2020-01-22 às 09.23.34.png">
+        <img class="post-img" src="./src/img/content/Captura de Tela 2020-01-22 às 09.23.34.png">
        </div>
        <div class="text-area">
         <p>
@@ -129,10 +132,10 @@
         </p>
       </div>
        <div>
-        <img class="post-img" src="./Captura de Tela 2020-01-22 às 09.23.49.png">
+        <img class="post-img" src="./src/img/content/Captura de Tela 2020-01-22 às 09.23.49.png">
        </div>
        <div>
-        <img class="post-img" src="./Captura de Tela 2020-01-22 às 09.24.04.png">
+        <img class="post-img" src="./src/img/content/Captura de Tela 2020-01-22 às 09.24.04.png">
        </div>
        <div class="text-area">
         <p>
@@ -143,25 +146,6 @@
         <div class="form-title">
           <h3>Quero esse e-book</h3>
         </div>
-          <form class="form-content" method="POST" action="https://hooks.zapier.com/hooks/catch/1735454/oh5cwc6/">
-            <h3>Nome</h3><input
-              name="name"
-              type="text"
-              label="Nome"
-              pattern="^\D{2,}\s[\D\s]{2,}$"
-              title="Digite seu nome completo"
-              required
-            />
-            <h3>Email</h3><input
-              name="email"
-              type="email"
-              label="Email"
-              title="Digite seu melhor email"
-              required
-            />
-            <input name="redirectTo" type="hidden" redirect="https://google.com" />
-            <input type="submit" label="Cadastrar"/>
-          </form>  
         <div class="form-content">
           <div class="form-field-ebook">
             <form class="register-form--action" method="POST" action="https://hooks.zapier.com/hooks/catch/1735454/oh5cwc6/">
@@ -213,27 +197,6 @@
        </div>
        <div class="other-post-form">
          <div class="read-more"><h4>Fique por dentro!</h4></div>
-         
-         <form class="form-content" method="POST" action="https://hooks.zapier.com/hooks/catch/1735454/oh5cwc6/">
-          <h3>Nome</h3><input
-            name="name"
-            type="text"
-            label="Nome"
-            pattern="^\D{2,}\s[\D\s]{2,}$"
-            title="Digite seu nome completo"
-            required
-          />
-          <h3>Email</h3><input
-            name="email"
-            type="email"
-            label="Email"
-            title="Digite seu melhor email"
-            required
-          />
-          <input name="redirectTo" type="hidden" redirect="https://google.com" />
-          <input type="submit" label="Cadastrar"/>
-        </form> 
-
          <div id="form-field" class="register-form--action" method="POST" action="https://hooks.zapier.com/hooks/catch/1735454/oh5cwc6/">
           <form class="register-form--action" method="POST" action="https://hooks.zapier.com/hooks/catch/1735454/oh5cwc6/">
             <p>Nome:</p><input name="name"
@@ -270,23 +233,19 @@
     <div class="container-footer">
       <div class="ml--colors top"><span class="yellow"></span><span class="orange"></span><span class="red"></span><span class="rose"></span><span class="purple"></span><span class="deep-purple"></span><span class="blue"></span><span class="cyan"></span><span class="light-green"></span><span class="green"></span></div>
       
-      <div class="footer-logo"><img class="logo" alt="Coisas de Casa" height="150px" src="src/img/content/LOGO_FINAL_PNG-01.png"></div>
+      <div class="footer-logo"><img class="logo" alt="Coisas de Casa" height="auto" width="250px" src="src/img/content/LOGO_FINAL_PNG-FLAT.png"></div>
 
       <div class="social-media">
         <p><b>Redes Sociais:</b></p>
 
-        <a href="#"><img width="120px" src="src/img/content/Grupo-97.png" /></a></br>
-        <a href="#"></a><img width="120px" src="src/img/content/Grupo-97.png" /></a>
-          
-        <div class="search-area" > 
-          <input class="search-input" placeholder=" O que está procurando? ">
-        </div>
+        <a href="#"><img width="120px" src="src/img/content/Grupo-98.png" /></a></br>
+        <a href="#"><img width="120px" src="src/img/content/Grupo-97.png" /></a>
 
         <!--<input type="text" placeholder="O que está procurando?">-->
       </div>
 
       <div class="footer-3">
-        <img width="160px" height="auto" src="src/img//content/Grupo-37-icon.png"/>
+        <img width="160px" height="auto" src="src/img/content/Grupo-37-icon.png"/>
       </div>
       
     </div>
@@ -294,7 +253,6 @@
        <p class="copy">®Copyright 2020 - Coisas D Casa. Todos os direitos reservados. Desenvolvido por WIT - Whatever It Takes</p>
     </div>
   </footer>
-
  
 
 
