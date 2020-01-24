@@ -1,8 +1,36 @@
 
+.bbb-page{
+  font-family: 'Lato', sans-serif;
+  color:black;
+}
+.cupom-page{
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+.domestico-page{
+  font-family: 'Lato', sans-serif;
+  color:black;
+}
+
+.financas-page{
+  font-family: 'Lato', sans-serif;
+  color:black;
+}
+.receitas-page{
+  font-family: 'Lato', sans-serif;
+  color:black;
+}
+
+.seguranca-page{
+  font-family: 'Lato', sans-serif;
+  color:black;
+}
+
 .ebook-form{
   margin-left: 15px;
   padding-left: 30px;
-  height: 450px;
+  height: 360px;
   width: 86%;
   background: #297fb8;
   opacity: 1;
