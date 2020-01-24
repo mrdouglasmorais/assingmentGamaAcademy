@@ -10596,3 +10596,12 @@ if ( !noGlobal ) {
 
 return jQuery;
 } );
+
+
+$('.bbb-page').click(() => window.location.href = 'index-bbb.html');
+$('.cupom-page').click(() => window.location.href = 'index-cupom.html');
+$('.decoracao-page').click(() => window.location.href = 'index-decoracao.html');
+$('.domestico-page').click(() => window.location.href = 'index-domestico.html');
+$('.financas-page').click(() => window.location.href = 'index-financas.html');
+$('.receitas-page').click(() => window.location.href = 'index-receitas.html');
+$('.seguranca-page').click(() => window.location.href = 'index-seguranca.html');
