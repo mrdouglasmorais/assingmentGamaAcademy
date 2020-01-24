@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\.coisadcasa\.com\.br$ [NC]
+RewriteRule ^(.*)$ https://www.coisadcasa.com.br/$1 [L,R=301]

@@ -1,20 +1,266 @@
 <html lang="pt-br"><head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="WIT">
-  <link rel="icon" href="/src/img/favicons/favicon.ico">
-  <title>Coisas d`Casa</title>
-  <scrpt src="js/jquery-3.4.1.js"></scrpt>
+  <meta property="og:type" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:url" name="description" content="https://coisadcasa.com.br">
+  <meta property="og:title" name="author" content="WIT">
+  <meta property="og:image" content="https://coisadcasa.com.br/src/img/favicon/fav.jpg" />
+  <link rel="icon" href="src/img/favicon/favicon.ico">
+  <title>Coisa d`Casa</title>
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-post.css" rel="stylesheet">
+  <script src="js/jquery-3.4.1.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a602dbc5fd.js" crossorigin="anonymous"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156660024-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-156660024-1');
+  </script>
+
 </head>
 
 <body>
 
-
-  <div class="">
-   Tag resumo
+  <header class="header">
+    <a href="" class="logo"><img class="logo" alt="Coisas de Casa" height="auto" width="250px" src="src/img/content/LOGO_FINAL_PNG-FLAT.png"></a>
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="#publicacoes">Publicações</a>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="#sobrenos">Sobre nós</a></li>
+    </ul>
+    <div class="main--navbar">
+    <div><input class="inputfind" type="text" name="search" placeholder=" O que está procurando? "></div>
+    <div><button href="#" id="myBtn" class="subscribe">Cadastrar</button></div>
   </div>
+  </header>
+  <!--<div class="navbar">
+    <div class="search-area" > 
+      <input class="search-input" placeholder=" O que está procurando? ">
+      <button class="subscribe">Assine</button>
+    </div>
+  </div>-->
+  <!-- <div class="main--navbar">
+    <div><a href="http://coisadcasa.com.br/"><img width="160px" height="auto" src="src/img/content/LOGO_FINAL_PNG-FLAT.png"/></a></div>
+
+    <ul>
+      <li><a href="#" >Publicações</a></li>
+      <li><a href="#" >Contato</a></li>
+      <li><a href="#" >Sobre nós</a></li>
+    </ul>
+    <div><input type="text" name="search" placeholder=" O que está procurando? "></div>
+    <div><button href="#" id="myBtn" class="subscribe">Cadastrar</button></div>
+  </div> -->
+
+  <div class="space">
+    
+  </div>
+
+  <div class="container-color--divider">
+  <!-- start -->
+
+  <div class="card-post--big">
+      <img src="src/img/content/Captura de Tela 2020-01-22 às 09.22.12.png" alt="Imagem post" width="100%">
+    <div class="container-post">
+      <h4><b>Saiba mais sobre o BBB 2020!</b></h4> 
+      <p>Conheça os bastidores da nova Casa do BBB. </p> 
+    </div>
+  </div>
+
+ 
+
+    <div class="card-post--min">
+        <img src="src/img/content/Captura de Tela 2020-01-22 às 09.22.32.jpg" alt="Imagem post" width="100%">
+      <div class="container-post">
+        <h4><b>Garanta seu CUPOM!</b></h4> 
+        <p>Dicas de sites para realizar as melhores aquisições de diversas lojas e segmentos.</p> 
+      </div>
+    </div>
+
+    <div class="card-post--min">
+      <img src="src/img/content/eletrodomésticos-758x426.jpg" alt="Imagem post" width="100%">
+      <div class="container-post">
+        <h4><b>6 Utensílios domésticos indispensáveis para a cozinha</b></h4> 
+        <p> Já pensou se você não tivesse uma cafeteira ou então um liquidificador?</p> 
+      </div>
+    </div>
+  </div>
+
+  <!-- end  -->
+
+  <!-- start modal -->
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+
+      <div class="ebook-form">
+        <div class="form-title">
+          <h3>Ganhe e-books e muito mais</h3>
+        </div>
+          <form class="form-content" method="POST" action="https://smtl.gama.academy/leads/3d84fab1-39f4-11ea-a319-e90cfbc180ef">
+            <h3>Nome</h3><input
+              name="name"
+              type="text"
+              label="Nome"
+              pattern="^\D{2,}\s[\D\s]{2,}$"
+              title="Digite seu nome completo"
+              required
+            />
+            <h3>Email</h3><input
+              name="email"
+              type="email"
+              label="Email"
+              title="Digite seu melhor email"
+              required
+            />
+            <input name="redirectTo" type="hidden" redirect="https://coisadcasa.com.br" />
+            <input type="submit" label="Cadastrar" placeholder="Cadastrar">
+          </form>  
+      </div>
+    </div>
+
+  </div>
+  <!-- end modal -->
+
+ 
+  <!-- start central call action -->
+  <div class="call-action--central-container">
+    <div class="call-action--text">
+      <p><b>Inscreva-se</b> no <b>coisadcasa</b><br>e receba novidades, ebooks, <br>
+        dicas e muito mais para sua casa!</p>
+    </div>
+    <form class="register-form--action" method="POST" action="https://smtl.gama.academy/leads/3d84fab1-39f4-11ea-a319-e90cfbc180ef">
+        <input name="name"
+        class="call-action--input-nome"
+        type="text"
+        label="Nome"
+        placeholder="Digite seu nome"
+        pattern="^\D{2,}\s[\D\s]{2,}$"
+        title="Digite seu nome completo"
+        required>
+
+        <input
+        name="email"
+        class="call-action--input-email"
+        type="email"
+        label="Email"
+        placeholder="Digite seu melhor e-mail"
+        title="Digite seu melhor email"
+        required
+          />
+      <input class="call-action--button" type="submit" label="Cadastrar"/>
+
+    </form>
+  </div>
+
+    <!-- start articles -->
+
+    <div class="content-post">
+      <div class="text-area">
+        <div class="text-area-left">
+          <div class="text-area-left-post">
+            <div class="text-area-left-post-img"><img class="highlight-img" width="200%" src="src/img/content/Captura de Tela 2020-01-22 às 09.23.49.png" ></div>
+            <div class="text-area-left-post-text"><h3>Conheça a casa do BBB 2020!</h3>
+              <p>Saiba aqui quais as novidades na nova casa do BBB20!!!</p></div>
+          </div>
+          <div class="text-area-left-post">
+            <div class="text-area-left-post-img"><img class="highlight-img" src="src/img/" height="100%"></div>
+            <div class="text-area-left-post-text"><h3>Segurança</h3>
+              <p>O que você precisa fazer para ter uma casa mais segura para seus pequenos!</p></div>
+          </div>
+          <div class="text-area-left-post">
+            <div class="text-area-left-post-img"><img class="highlight-img" src="src/img/content/sanduiche-de-atum.jpg" height="100%"></div>
+            <div class="text-area-left-post-text"><h3>Receitas saudáveis</h3>
+              <p>5 Receitas de alimentos fáceis e saudáveis para seu dia-a-dia</p></div>
+          </div>
+        </div>
+        <div class="text-area-right">
+          <div class= "text-area-right-box">
+             <h1 class="other-news">Outras notícias</h1>
+            <div class="text-highlights">
+              <h2>Como iniciar pelo básico para colocar os gastos em dia!</h2>
+              <p class="highlights-subtitle"> 10 Dias de como se manter no azul até o final do mês!</p>
+          </div>
+          <div class="text-highlights">
+            <h2>Como decorar gastando pouco e investir em peças de personalidade e cores versáteis </h2>
+            <p class="highlights-subtitle"> Dicas de decoração barata com uma pegada sustentável. </p>
+        </div>
+            </br>
+            </br>
+            </br>
+        
+          </div>
+  
+          <div class="ebook-form">
+            </br></br></br>
+            <form class="form-content" method="POST" action="https://smtl.gama.academy/leads/3d84fab1-39f4-11ea-a319-e90cfbc180ef">
+              <h3>Nome</h3><input
+                name="name"
+                type="text"
+                label="Nome"
+                pattern="^\D{2,}\s[\D\s]{2,}$"
+                title="Digite seu nome completo"
+                required
+              />
+              <h3>Email</h3><input
+                name="email"
+                type="email"
+                label="Email"
+                title="Digite seu melhor email"
+                required
+              />
+              <input name="redirectTo" type="hidden" redirect="https://coisadcasa.com.br" />
+              <input type="submit" label="Cadastrar" placeholder="Cadastrar">
+            </form>  
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  
+    </div>
+
+  <!-- end articles -->
+
+  <br style="clear:both">
+  
+  
+ 
+  
+
+  <footer id="site-footer">
+    <div class="container-footer">
+      <div class="ml--colors top"><span class="yellow"></span><span class="orange"></span><span class="red"></span><span class="rose"></span><span class="purple"></span><span class="deep-purple"></span><span class="blue"></span><span class="cyan"></span><span class="light-green"></span><span class="green"></span></div>
+      
+      <div class="footer-logo"><img class="logo" alt="Coisas de Casa" height="auto" width="250px" src="src/img/content/LOGO_FINAL_PNG-FLAT.png"></div>
+
+      <div class="social-media">
+        <p><b>Redes Sociais:</b></p>
+
+        <a href="#"><img width="120px" src="src/img/content/Grupo-98.png" /></a></br>
+        <a href="#"><img width="120px" src="src/img/content/Grupo-97.png" /></a>
+
+        <!--<input type="text" placeholder="O que está procurando?">-->
+      </div>
+
+      <div class="footer-3">
+        <img width="160px" height="auto" src="src/img/content/Grupo-37-icon.png"/>
+      </div>
+      
+    </div>
+    <div id="copy">
+       <p class="copy">®Copyright 2020 - Coisas D Casa. Todos os direitos reservados. Desenvolvido por WIT - Whatever It Takes</p>
+    </div>
+  </footer>
 
  
 
