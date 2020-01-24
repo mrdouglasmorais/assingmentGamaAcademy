@@ -8,6 +8,35 @@ body{
 
 }
 
+.bbb-page{
+  font-family: 'Lato', sans-serif;
+  color:#F24E4E;
+}
+.cupom-page{
+  font-family: 'Lato', sans-serif;
+  color:#F24E4E;
+}
+
+.domestico-page{
+  font-family: 'Lato', sans-serif;
+  color:#F24E4E;
+}
+
+.financas-page{
+  font-family: 'Lato', sans-serif;
+  
+}
+.receitas-page{
+  font-family: 'Lato', sans-serif;
+
+}
+
+.seguranca-page{
+  font-family: 'Lato', sans-serif;
+  
+}
+
+
 h1, h2, h3, h4, h5{
   font-family: 'Roboto', sans-serif;
 }
