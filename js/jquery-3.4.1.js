@@ -1304,7 +1304,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 		});
 
 		assert(function( el ) {
-			el.innerHTML = "<a href='' disabled='disabled'></a>" +
+			el.innerHTML = "<a style="text-decoration: none;" href='' disabled='disabled'></a>" +
 				"<select disabled='disabled'><option/></select>";
 
 			// Support: Windows 8 Native Apps
@@ -2730,7 +2730,7 @@ support.sortDetached = assert(function( el ) {
 // Prevent attribute/property "interpolation"
 // https://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.aspx
 if ( !assert(function( el ) {
-	el.innerHTML = "<a href='#'></a>";
+	el.innerHTML = "<a style="text-decoration: none;" href='#'></a>";
 	return el.firstChild.getAttribute("href") === "#" ;
 }) ) {
 	addHandle( "type|href|height|width", function( elem, name, isXML ) {
@@ -10596,3 +10596,12 @@ if ( !noGlobal ) {
 
 return jQuery;
 } );
+
+
+$('.bbb-page').click(() => window.location.href = 'index-bbb.html');
+$('.cupom-page').click(() => window.location.href = 'index-cupom.html');
+$('.decoracao-page').click(() => window.location.href = 'index-decoracao.html');
+$('.domestico-page').click(() => window.location.href = 'index-domestico.html');
+$('.financas-page').click(() => window.location.href = 'index-financas.html');
+$('.receitas-page').click(() => window.location.href = 'index-receitas.html');
+$('.seguranca-page').click(() => window.location.href = 'index-seguranca.html');
